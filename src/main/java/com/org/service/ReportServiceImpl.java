@@ -85,7 +85,7 @@ public class ReportServiceImpl implements ReportService {
 		excelGenerator.generateExcel(response, list,f);
 		String subject="Test mail subject";
 		String body="<h1>Test mail body</h1>";
-		String to="vineethyadavnaluvala@gmail.com";
+		String to="xyz@gmail.com";
 
 	
 		email.sendEmail(subject, body, to, f);
@@ -102,7 +102,7 @@ public class ReportServiceImpl implements ReportService {
 		generatePdf.generatPdf(response, list,f);
 		String subject="Sending PDF ....";
 		String body="<h1>Pdf sending  Attachment</h1>";
-		String to="vineethyadavnaluvala@gmail.com";
+		String to="xyz@gmail.com";
 
 	//sending fpf attachment
 		email.sendEmail(subject, body, to, f);

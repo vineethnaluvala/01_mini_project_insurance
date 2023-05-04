@@ -21,7 +21,7 @@ public class EmailUtils {
 
 			helper.setSubject(subject);
 			helper.setText(body, true);
-			helper.setTo("vineethyadavnaluvala@gmail.com");
+			helper.setTo("xyz@gmail.com");
 			// File f= new File();
 
 			helper.addAttachment("Plans-Info", f);
